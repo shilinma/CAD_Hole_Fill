@@ -1,0 +1,40 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+*.egg-info/
+.venv/
+venv/
+
+# 运行输出（体积大、可重新生成）
+out/
+out_fill/
+
+# 本地脚本与工具（勿提交）
+tools/
+batch_run_cad_fill.py
+make_hole_cases.py
+test.py
+
+# 测试网格与孔洞案例（本地放置，勿提交）
+data/
+hole_data/
+
+# 网格 / 可视化产物（若出现在项目根或 libs 旁）
+*.glb
+*.stl
+*.ply
+*.off
+
+# IDE / 编辑器
+.idea/
+.vscode/
+*.swp
+*~
+
+# 系统
+.DS_Store
+Thumbs.db
